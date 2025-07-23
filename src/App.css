@@ -1,0 +1,18 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card-body-stars {
+  list-style: none; /* Убрать маркеры списка */
+  padding: 0;
+  margin: 0;
+  display: flex; /* Чтобы звезды были в ряд */
+}
+
+.star-item {
+  margin-right: 5px; /* Небольшой отступ между звездами */
+  font-size: 24px; /* Размер звезды */
+}
